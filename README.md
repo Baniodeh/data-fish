@@ -26,3 +26,23 @@ https://www.jetbrains.com/pycharm/
 GitKraken ist ein Git Client (UI) für Git. So ein User Interface erleichtert die Arbeit und ist eine Alternative zum Command Line Interface (CLI):
 
 https://www.gitkraken.com/download
+
+
+## Setup
+
+```sh
+git clone https://github.com/neuefische/data-fish.git
+```
+
+```sh
+conda env create --file environment.yml
+source activate data-fish
+```
+
+## Usage
+
+```sh
+conda env update --file environment.yml
+source activate data-fish
+jupyter notebook
+```
