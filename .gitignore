@@ -108,3 +108,6 @@ venv.bak/
 
 # IDE
 .idea
+
+# Misc
+.DS_Store
